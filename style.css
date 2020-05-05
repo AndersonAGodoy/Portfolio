@@ -44,9 +44,6 @@ img {
     left: 50%;
     transform: translateX(-50%);
     border-radius: 30px;
-    -webkit-box-shadow: 10px 10px 174px -28px rgba(0,0,0,0.28);
-    -moz-box-shadow: 10px 10px 174px -28px rgba(0,0,0,0.28);
-    box-shadow: 10px 10px 174px -28px rgba(0,0,0,0.28);
     margin-top: 40px;
     margin-bottom: 20px;
 }
