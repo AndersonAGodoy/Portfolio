@@ -4,12 +4,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    color: #8a8d91;
+}
+body {
+    background-color: #eaeaea;
+    color: #893168;
 }
 
 h1, h2{
     text-align: center;
-    color: #000;
+    color: #4a1942;
 }
 
 p {
@@ -31,20 +34,19 @@ ul li {
 
 
 strong {
-    color:#515457;
+    color:#893168;
 }
 
 a {
     text-decoration: none;
-    color:#515457!important;
+    color:#4a1942!important;
     font-weight: bold;
     margin-left: 20px;
     padding: 0 5px;
-    border-bottom: 1px solid #f57c00;
 }
-                
+              
 
-img {
+.my-photo {
     position: relative;
     width: 300px;
     left: 50%;
@@ -57,6 +59,7 @@ img {
     box-shadow: 0px 0px 22px 4px rgba(0,0,0,0.3);
 }
 
+
 .container {
     position: relative;
     left: 50%;
@@ -67,8 +70,28 @@ img {
 
 .habilities {
     width: 100%;
-    background-color: #EEE;
+    background-color: #CCC;
     border-bottom: 20px;
+}
+
+.habilities img {
+    max-width: 200px;
+    box-shadow: none;
+}
+
+.hability {
+    padding: 30px;
+    width: 150px;
+    margin-right: 10px;
+    float: left;
+    background-color: #FFF;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.hability li:last-child {
+    margin-bottom: 5px;
+    margin-right: none;
 }
 
 .habilities h1 {
@@ -78,14 +101,12 @@ img {
 .habilities ul {
     padding: 30px;
     list-style: none;
-    
-
+    display: inline-block;
 }
-
+/* 
 .habilities ul li {
     display:inline;
-    margin-left: 20px;
-}
+} */
 
 .habilities ul li:first-child{
     margin-left: 0;
@@ -113,6 +134,7 @@ img {
 }
 
 .fa-php {
+    margin-left: -15px;
     color: #512da8;
 }
 
@@ -128,29 +150,49 @@ img {
     color: #311b92;
 }
 
-.social h1 {
-    margin-bottom: 20px;
+.fa-heart {
+    color: #b71c1c;
 }
+
+.fa-check-circle {
+    color: #388e3c;
+}
+
+.fa-grin-beam-sweat {
+    color: #0277B5; 
+}
+
+.fa-rocket {
+    color: #4a1942; 
+}
+
+.fa-user {
+    color: #4a1942;
+}
+
+.social {
+    width: 100%;
+    height: 120px;
+    background-color: #050404;
+    color:#eaeaea;
+    text-align: center;
+}
+
+
+.social h1, .social a {
+    padding: 20px 0;
+}
+
+.social h1, .social a, .social i {
+    color: #eaeaea!important;
+}
+
 
 #blogs_link{
     margin-top: 20px;
 }
 
-
-#name {
-    color: #000;
-    /* margin-top: 20px; */
-    margin-bottom: 20px;
-}
-
-#info {
-    color: #8a8d91;
-}
-
-
-#photo, 
 .blogs {
-    
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
