@@ -16,6 +16,7 @@ p {
     text-align: center;
     font-size: 20px;
     line-height: 30px;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -34,9 +35,12 @@ strong {
 }
 
 a {
+    text-decoration: none;
     color:#515457!important;
     font-weight: bold;
+    padding-left: 20px;
 }
+                
 
 img {
     position: relative;
@@ -44,19 +48,100 @@ img {
     left: 50%;
     transform: translateX(-50%);
     border-radius: 30px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
+.container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1024px;
+    text-align: center;
+}
+
+.habilities {
+    width: 100%;
+    background-color: #EEE;
+    border-bottom: 20px;
+}
+
+.habilities h1 {
+    padding-top: 20px;
+}  
+
+.habilities ul {
+    padding: 30px;
+    list-style: none;
+    
+
+}
+
+.habilities ul li {
+    display:inline;
+    margin-left: 20px;
+}
+
+.habilities ul li:first-child{
+    margin-left: 0;
+}
+
+.fa-js, .fa-html5, .fa-css3-alt, .fa-database, .fa-php {
+    font-size: 100px;
+}
+
+.fa-js {
+    color: #f9a825!important;
+}
+
+
+.fa-html5 {
+    color: #f57c00;
+}
+
+.fa-css3-alt {
+    color: #0277bd;
+}
+
+.fa-database {
+    color: #388e3c;
+}
+
+.fa-php {
+    color: #512da8;
+}
+
+.fa-github-square {
+    color: #000;
+}
+
+.fa-linkedin {
+    color: #0277B5;
+}
+
+.fa-instagram-square {
+    color: #311b92;
+}
+
+.social h1 {
+    margin-bottom: 20px;
+}
+
+#blogs_link{
+    margin-top: 20px;
+}
+
+
 #name {
     color: #000;
-    margin-top: 40px;
+    /* margin-top: 20px; */
     margin-bottom: 20px;
 }
 
 #info {
     color: #8a8d91;
 }
+
 
 #photo, 
 .blogs {
@@ -65,3 +150,4 @@ img {
     margin-bottom: 20px;
     text-align: center;
 }
+
