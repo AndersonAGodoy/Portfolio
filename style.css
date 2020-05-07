@@ -92,6 +92,11 @@ a {
     margin-bottom: 10px;
     border-radius: 5px;
 }
+
+.hability li {
+    margin-top: 30px;
+}
+
 .hability li:last-child {
     margin-bottom: 5px;
     margin-right: none;
@@ -164,8 +169,8 @@ a {
 .fa-grin-beam-sweat {
     color: #0277B5; 
 }
-
 .fa-rocket {
+
     color: #4a1942; 
 }
 
@@ -194,7 +199,7 @@ a {
 
 #blogs_link{
     width: 100%;
-    height: 80px;
+    /* height: 80px; */
     margin-top: 20px;
 }
 
@@ -202,4 +207,72 @@ a {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+}
+
+.menu ul {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.menu ul li{
+    display: inline;
+    list-style: none;
+}
+
+@media screen and (max-width:768px) {
+ 
+    .fa-js, .fa-html5, .fa-css3-alt, .fa-database, .fa-php {
+        font-size: 50px;
+    }
+
+    .fa-php  {
+        margin-left: 0;
+    }
+
+    .habilities h1 {
+        padding-top: 30px;
+    }
+
+    .hability {
+        width: 150px;
+        height: 150px;
+    }
+
+    .my-photo {
+        width: 250px;
+    }
+    
+    h1 {
+        font-size: 25px;
+    }
+
+    ul {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width:520px) {
+
+    .hability{
+        width: 100%;
+    }
+
+    .menu ul li {
+        margin-top: 10px;
+        display:block;
+    }
+
+    .blogs  {
+        padding: 10px 0;
+        margin-right:20px;
+    }
+
+
+    p {
+        padding: 0 10px;
+    }
+
+    ul {
+        margin-left: 0;
+    }
 }
