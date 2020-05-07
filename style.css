@@ -49,17 +49,25 @@ a {
     clear: both;
 }
 
-.my-photo {
-    position: relative;
-    width: 300px;
-    left: 50%;
-    transform: translateX(-50%);
+.about {
+    width: 700px;
+    margin: 0 auto;
     border-radius: 50%;
     margin-top: 20px;
     margin-bottom: 20px;
-    -webkit-box-shadow: 0px 0px 22px 4px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 0px 22px 4px rgba(0,0,0,0.3);
-    box-shadow: 0px 0px 22px 4px rgba(0,0,0,0.3);
+}
+
+
+
+.about img {
+    float: left;
+    margin-right: 20px;
+    width:300px;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 34px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 34px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 34px -5px rgba(0,0,0,0.75);
 }
 
 
@@ -215,11 +223,25 @@ a {
 }
 
 .menu ul li{
-    display: inline;
+    margin-top: 20px;
     list-style: none;
 }
 
 @media screen and (max-width:768px) {
+
+    .hability {
+        width: 100%;
+    }
+
+    .about {
+        width: min-content;
+    }
+
+    .about img{
+        margin-right: 0;
+        float:none;
+        margin-bottom: 20px;
+    }
  
     .fa-js, .fa-html5, .fa-css3-alt, .fa-database, .fa-php {
         font-size: 50px;
